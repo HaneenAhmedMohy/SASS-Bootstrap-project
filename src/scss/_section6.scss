@@ -1,0 +1,37 @@
+.section6{
+	.container{
+		font-size:0;
+	}
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		width:5%;
+		@extend %hrHome;
+	}
+	p{
+		@extend %paragraphs;
+		width:75%;
+	}
+	button{
+		@extend %btn;
+	}
+	ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	    li{
+			@extend %paragraphs;
+			font-size:0.8rem; 
+		}
+	}
+	li:before {
+	    content: "•";
+	    padding-right: 8px;
+	    color: $secondary-color;
+	}
+}

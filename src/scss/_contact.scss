@@ -1,0 +1,46 @@
+header.contact{
+	background-image:url(../images/contact/section-bg-10.jpg);
+	background-position:right top;
+	background-size:cover;
+	height:40vh;
+
+	h5.head{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+}
+.section10contact{
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	hr{
+		@extend %hrSecondaryColor;
+		margin:auto;
+		width:5%;
+	}
+	hr.cardhr.my-3{
+		width:9%;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	p.mx-auto{
+		@extend %paragraphs;
+		width:45%;
+	}
+	p{
+		@extend %paragraphs;
+		width:100%;
+	}
+	.fa-envelope:before,.fa-map-marker-alt:before,.fa-phone:before{
+		color:$primary-color;
+		font-size:2rem;
+	}
+	button{
+		@extend %btn;
+	}
+}

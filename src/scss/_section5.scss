@@ -1,0 +1,32 @@
+.section5{
+	background-color:$secondary-color;
+	.yellowpic1{
+		background-image:url(../images/HomePage/coffee-cup.png);
+    	@extend %yellowpics;
+	}
+	.yellowpic2{
+		background-image:url(../images/HomePage/briefcase.png);
+    	@extend %yellowpics;
+	}
+	.yellowpic3{
+		background-image:url(../images/HomePage/coin.png);
+    	@extend %yellowpics;
+	}
+	.yellowpic4{
+		background-image:url(../images/HomePage/right-tick.png);
+    	@extend %yellowpics;
+	}
+	.overlay2 {
+		@extned %overlay;
+        background-color: rgba(252, 202, 4, 0.8);
+        text-align: center;
+        padding-top: 15px;
+    }
+    h5{
+    	font-family:RalewayFont;
+    	font-size:0.7rem;
+    }
+    h6{
+    	font-family:RalewayFont;
+    }
+}

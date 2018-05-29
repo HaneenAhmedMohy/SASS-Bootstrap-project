@@ -1,0 +1,22 @@
+.section9{
+	background-image:url(../images/HomePage/section-bg-5.jpg);
+	background-size:cover;
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		@extend %hrHome;
+	}
+	p.mx-auto{
+		@extend %paragraphs;
+		width:45%;
+	}
+	h5{
+		font-family:RalewayFont;
+		font-size:1rem;
+	}
+}

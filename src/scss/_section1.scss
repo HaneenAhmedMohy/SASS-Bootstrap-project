@@ -1,0 +1,48 @@
+.section1{
+	.head{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		@extend %hrHome 
+	}
+	p.mx-auto{
+		@extend %paragraphs;
+		width:45%;
+	}
+	h6{
+		font-family:RalewayFont;
+	}
+	p{
+		@extend %paragraphs;
+		width:100%;
+	}
+	.col3{
+		height:20vh;
+	}
+	.position-absolute{
+		top:0;
+		right:0;
+	}
+	.fa-clone:before{
+		@extend %icons-6;
+	}
+	.fa-chart-bar:before{
+		@extend %icons-6;
+	}
+	.fa-briefcase:before{
+		@extend %icons-6;
+	}
+	.fa-expand-arrows-alt:before{
+		@extend %icons-6;
+	}
+	.fa-cog:before{
+		@extend %icons-6;
+	}
+	.fa-paper-plane:before{
+		@extend %icons-6;
+	}
+}

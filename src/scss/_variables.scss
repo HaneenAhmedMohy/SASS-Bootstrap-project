@@ -1,0 +1,22 @@
+$primary-color: #303233;
+$secondary-color: #fcca03;
+$text-color:#7a7a7a;
+
+@font-face {
+    font-family: KaushanFont;
+    src: url(../fonts/KaushanScript-Regular.otf);
+    color:$primary-color;
+}
+@font-face {
+    font-family: RalewayFont;
+    src: url(../fonts/Raleway-Bold.otf);
+    color:$primary-color;
+}
+@font-face {
+    font-family: LatoFont;
+    src: url(../fonts/Lato-Regular.otf);
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}

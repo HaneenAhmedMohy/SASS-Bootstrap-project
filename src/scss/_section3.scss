@@ -1,0 +1,16 @@
+.section3{
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		@extend %hrHome;
+	}
+	p.mx-auto{
+		@extend %paragraphs;
+		width:45%;
+	}
+}

@@ -1,0 +1,111 @@
+.aboutUS{
+	background-image:url(../images/aboutUs/section-bg-9.jpg);
+	background-position:right bottom;
+	background-size:cover;
+	height:40vh;
+
+	h5{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+}
+.position{
+		position:absolute;
+	}
+.section6 h5{
+		font-family:RalewayFont;
+		font-size: 0.8rem;
+}	
+.progress{
+	height:5px;
+}
+.progress-bar{
+		background-color: $secondary-color;
+}
+.webDesign{
+	width:95%;
+}
+.graphic{
+	width:90%;
+}
+.phoography{
+	width:85%;
+}
+.bars.w-75{
+	position:relative;
+	.percentage{
+		position: absolute;
+    	right: 0;
+    	top: 0;
+	}
+}
+.creativeTeam{
+	.head{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		@extend %hrHome 
+	}
+	p.mx-auto{
+		@extend %paragraphs;
+		width:45%;
+	}
+}
+.section8.about{
+	.pic1{
+    	background-image:url(../images/aboutUs/team-1.jpg);
+    	@extend %pics;
+    	height: 400px;
+    }
+    .pic2{
+    	background-image:url(../images/aboutUs/team-2.jpg);
+    	@extend %pics;
+    	height: 400px;
+    }
+    .pic3{
+    	background-image:url(../images/aboutUs/team-3.jpg);
+    	@extend %pics;
+    	height: 400px;
+    }
+    .overlay {
+        background-color: rgba(255, 255, 255, 0);
+        @extend %overlay;
+    }
+    .container.text-center{
+    	position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .overlayParagraph{
+    	font-size:0;
+    }
+    .fab.fa-facebook-f:before,.fab.fa-twitter:before,.fab.fa-skype:before{
+        font-size:0rem;
+    }
+    hr{
+    	width:0;
+    }
+    figure:hover{
+    	.overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .overlayParagraph{
+	    	@extend %paragraphs;
+	    }
+        .fab.fa-facebook-f:before,.fab.fa-twitter:before,.fab.fa-skype:before{
+            @extend %icons-2;
+            font-size:1rem;
+            margin:10px;
+        }
+        hr{
+    		width:5%;
+    	}
+    }
+}

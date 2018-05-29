@@ -1,0 +1,87 @@
+footer{
+	background-color:$primary-color;
+	h4{
+		font-family:RalewayFont;
+		color:white;
+		font-size:1rem;
+	}
+	.h4news{
+		font-size:0.8rem;
+	}
+	hr{
+		@extend %hrSecondaryColor;
+	}
+	p{
+		@extend %paragraphs;
+		width:100%;
+		color:white;
+	}
+	.fa-envelope:before,.fa-map-marker-alt:before,.fa-phone:before{
+		color:white;
+	}
+	i.fas.fa-map-marker-alt{
+		width:16px;
+		height:16px;
+	}
+	.image1{
+		background-image:url(../images/HomePage/img-9.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	.image2{
+		background-image:url(../images/HomePage/img-10.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	.image3{
+		background-image:url(../images/HomePage/img-11.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	h5{
+		font-family: KaushanFont;
+		color:white;
+		font-size:0.7rem;
+	}
+	.pic1{
+		background-image:url(../images/HomePage/pic1.jpg);
+		@extend %footerGallery;
+	}
+	.pic2{
+		background-image:url(../images/HomePage/pic2.jpg);
+		@extend %footerGallery;
+	}
+	.pic3{
+		background-image:url(../images/HomePage/pic3.jpg);
+		@extend %footerGallery;
+	}
+	.pic4{
+		background-image:url(../images/HomePage/pic4.jpg);
+		@extend %footerGallery;
+	}
+	.pic5{
+		background-image:url(../images/HomePage/img-5.jpg);
+		@extend %footerGallery;
+	}
+	.pic6{
+		background-image:url(../images/HomePage/img-6.jpg);
+		@extend %footerGallery;
+	}
+	.pic7{
+		background-image:url(../images/HomePage/img-7.jpg);
+		@extend %footerGallery;
+	}
+	.pic8{
+		background-image:url(../images/HomePage/img-8.jpg);
+		@extend %footerGallery;
+	}
+}
+.copyrights{
+	background-color:#282828;
+	p{
+		color:grey;
+	}
+}

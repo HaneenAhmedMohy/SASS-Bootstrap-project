@@ -1,0 +1,159 @@
+.PortfolioHeader{
+	background-image:url(../images/Portfolio/section-bg-8.jpg);
+	background-position:right top;
+	background-size:cover;
+	height:40vh;
+
+	h5.head{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+}
+.PortfolioBody{
+	a{
+		font-family:RalewayFont;
+		color:$text-color;
+	}
+	hr{
+		width:0;
+	}
+	li:active{
+		a{
+			color:$secondary-color;
+		}
+		hr{
+			@extend %hrSecondaryColor;
+			width:40%;
+		}
+	}
+	.card{
+		border:none;
+	}
+
+	.portfolioPic1{
+		background-image:url(../images/Portfolio/img-1.jpg);
+    	@extend %pics;
+    	height:520px;
+	}
+	.portfolioPic4{
+		background-image:url(../images/Portfolio/img-4.jpg);
+    	@extend %pics;
+    	height:290px;
+	}
+	.portfolioPic7{
+		background-image:url(../images/Portfolio/img-7.jpg);
+    	@extend %pics;
+    	height:355px;
+	}
+	.portfolioPic2{
+		background-image:url(../images/Portfolio/img-2.jpg);
+    	@extend %pics;
+    	height:290px;
+	}
+	.portfolioPic5{
+		background-image:url(../images/Portfolio/img-5.jpg);
+    	@extend %pics;
+    	height:420px;
+	}
+	.portfolioPic8{
+		background-image:url(../images/Portfolio/img-8.jpg);
+    	@extend %pics;
+    	height:455px;
+	}
+	.portfolioPic3{
+		background-image:url(../images/Portfolio/img-3.jpg);
+    	@extend %pics;
+    	height:385px;
+	}
+	.portfolioPic6{
+		background-image:url(../images/Portfolio/img-6.jpg);
+    	@extend %pics;
+    	height:515px;
+	}
+	.portfolioPic9{
+		background-image:url(../images/Portfolio/img-9.jpg);
+    	@extend %pics;
+    	height:265px;
+	}
+	button{
+		@extend %btn;
+	}
+	h5{
+		font-family:RalewayFont;
+		font-size:1rem;
+	}
+	p.card-text,p{
+		@extend %paragraphs;
+		width:100%;
+	}
+	.fa-search-plus:before,.fa-share-square:before{
+        font-size:0rem;
+    }
+    .overlay {
+        background-color: rgba(255, 255, 255, 0);
+        @extend %overlay;
+    }
+    .container.text-center{
+    	position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+	figure:hover{
+    	.overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .fa-search-plus:before,.fa-share-square:before{
+            @extend %icons-2;
+            font-size:1.5rem;
+            margin:10px;
+        }
+    }
+}	
+
+/*-------------portfolio single page-----------*/
+
+.PortfolioSingleBody{
+	.card{
+		border: none;
+	}
+	h5{
+		font-family:RalewayFont;
+		font-size:1.5rem;
+	}
+	h6.d-inline-block{
+		font-family:RalewayFont;
+		font-size:1rem;
+	}
+	p{
+		@extend %paragraphs; 
+	}
+	i{
+		color:$text-color;
+	}
+	i:hover{
+		color:$primary-color;
+	}
+	.pagination	{
+		a{
+			color:$primary-color;
+		}
+		.page-link:hover{
+			background-color:$secondary-color;
+		}
+	}
+	.Page.navigation.example{
+		position:relative;
+	}
+	.next{
+		position: absolute;
+    	right: 15px;
+	}
+	hr.cardhr{
+		@extend %hrSecondaryColor;
+		width:5%;
+	}
+
+}

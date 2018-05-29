@@ -1,0 +1,66 @@
+.section4{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    .pic1{
+    	background-image:url(../images/HomePage/img-1.jpg);
+    	@extend %pics;
+    }
+    .pic2{
+    	background-image:url(../images/HomePage/img-2.jpg);
+    	@extend %pics;
+    }
+    .pic3{
+    	background-image:url(../images/HomePage/img-3.jpg);
+    	@extend %pics;
+    }
+    .pic4{
+    	background-image:url(../images/HomePage/img-4.jpg);
+    	@extend %pics;
+    }
+    .overlay {
+        background-color: rgba(255, 255, 255, 0);
+        @extend %overlay;
+    }
+    .container{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    h4{
+        font-size:0rem;
+    }
+    h3{
+        font-size: 0rem;
+    }
+    .fa-share-square:before{
+        font-size:0rem;
+    }
+    .fa-search-plus:before{
+        font-size:0rem;
+    }
+    figure:hover{
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .fa-share-square:before{
+            @extend %icons-2;
+            font-size:1rem;
+            margin:10px;
+        }
+        .fa-search-plus:before{
+            @extend %icons-2;
+            font-size:1rem;
+            margin:10px;
+        }
+        h4{
+            @extend %paragraphs;
+            font-size:0.8rem;
+        }
+        h3{
+            font-family:RalewayFont;
+            color:#303233;
+            font-size: 1rem;
+         
+        }
+    }   
+}

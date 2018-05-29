@@ -1,0 +1,63 @@
+.shopList{
+	.image1{
+		background-image:url(../images/shopList/img-1.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.image2{
+		background-image:url(../images/shopList/img-2.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.image3{
+		background-image:url(../images/shopList/img-3.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.image4{
+		background-image:url(../images/shopList/img-4.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.image5{
+		background-image:url(../images/shopList/img-5.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.image6{
+		background-image:url(../images/shopList/img-6.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height:200px;
+	}
+	.Price{
+		color:$secondary-color;
+	}
+	p.card-text{
+		width:90%;
+	}
+	button.addToCart{
+		color:$primary-color;
+		background-color:$secondary-color;
+		border:none;
+		font-family:RalewayFont;
+		padding: 10px;
+	}
+	button.action{
+		color:$primary-color;
+		border:none;
+		padding: 10px;
+	}
+	.overlay2 span{
+		top:-170px;
+	}
+	.fa-star:before{
+		color:$text-color;
+		font-size:0.8rem;
+	}
+}

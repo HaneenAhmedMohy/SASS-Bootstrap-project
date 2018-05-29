@@ -1,0 +1,67 @@
+.section8{
+	.pic1{
+    	background-image:url(../images/HomePage/mid-img-1.jpg);
+    	@extend %pics;
+    }
+    .pic2{
+    	background-image:url(../images/HomePage/mid-img-2.jpg);
+    	@extend %pics;
+    }
+    .pic3{
+    	background-image:url(../images/HomePage/mid-img-3.jpg);
+    	@extend %pics;
+    }
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		@extend %hrHome;
+	}
+	p{
+		@extend %paragraphs;
+		width:45%;
+	}
+	.card{
+		border: none;
+	}
+	p.card-text{
+		width:100%;
+	}
+	h5{
+		font-family:RalewayFont;
+		font-size:0.8rem;
+	}
+	.readmore{
+		font-family:RalewayFont;
+		font-size:0.5rem;
+	}
+	.cardhr{
+		@extned %hrSecondaryColor;
+	}
+	.overlay {
+        background-color: rgba(255, 255, 255, 0);
+        @extend %overlay;
+    }
+    .fa-search-plus:before{
+        font-size:0rem;
+    }
+    .container.text-center{
+    	position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    figure:hover{
+    	.overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .fa-search-plus:before{
+            @extend %icons-2;
+            font-size:1rem;
+            margin:10px;
+        }
+    }
+}

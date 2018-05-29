@@ -1,0 +1,25 @@
+.section2{
+	background-image:url(../images/HomePage/section-bg-4.jpg);
+	background-size:cover;
+	.container{
+		font-size:0;
+	}
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		width:5%;
+		@extend %hrHome;
+	}
+	p{
+		@extend %paragraphs;
+		width:75%;
+	}
+	button{
+		@extend %btn;
+	}
+}

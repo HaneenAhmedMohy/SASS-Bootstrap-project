@@ -1,0 +1,225 @@
+header.shopGrid{
+	background-image:url(../images/shopGrid/section-bg-shop.jpg);
+	background-position:right top;
+	background-size:cover;
+	height:40vh;
+
+	h5.head{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+}
+/*---------------body--------*/
+.nav-item.dropdown.shopgrid{
+	    list-style: none;
+    	position: absolute;
+    	right: 50px;
+}
+.shopnav,.dropdownanchor,.shopanchor{
+	font-family:latoFont;
+	font-size:0.8rem;
+	color:$text-color;
+}
+.card{
+	border: none;
+	h5{
+		font-family:RalewayFont;
+		font-size:0.8rem;
+		color:$text-color;
+		display:inline-block;
+	}
+	p{
+		font-family:latoFont;
+		font-size:0.8rem;
+		color:$primary-color;
+	}
+	.shopgriddetails{
+		position:relative;
+		.far.fa-heart{
+			position:absolute;
+			right:0;
+			top: 5px;
+			color:$text-color;
+		}
+	}
+}
+/*------------pictures---------*/
+.shopgridCard .pic1{
+	background-image:url(../images/shopGrid/img-1.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic4{
+	background-image:url(../images/shopGrid/img-4.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic7{
+	background-image:url(../images/shopGrid/img-7.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic10{
+	background-image:url(../images/shopGrid/img-10.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic2{
+	background-image:url(../images/shopGrid/img-2.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic5{
+	background-image:url(../images/shopGrid/img-5.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic8{
+	background-image:url(../images/shopGrid/img-8.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic11{
+	background-image:url(../images/shopGrid/img-11.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic3{
+	background-image:url(../images/shopGrid/img-3.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic6{
+	background-image:url(../images/shopGrid/img-6.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic9{
+	background-image:url(../images/shopGrid/img-9.jpg);
+    @extend %pics;
+}
+.shopgridCard .pic12{
+	background-image:url(../images/shopGrid/img-12.jpg);
+    @extend %pics;
+}
+
+
+p.card-text,p{
+	@extend %paragraphs;
+	width:100%;
+}
+.card.relative{
+	position:relative;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0);
+    @extend %overlay;
+}
+.overlay2{
+	@extend %overlay;
+	z-index: 2;
+	.badge-secondary{
+		background-color:$secondary-color;
+		color:$primary-color;
+		position:absolute;
+		top: -275px;
+	}
+}
+.container.text-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    button{
+    	opacity:0;
+   	}
+}  
+figure:hover{
+    	.overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+         .container.text-center button{
+         	opacity:1;
+         	display:display;
+	    	background-color: white;
+	    	border: none;
+	    	padding: 10px;
+	    	@extend %btn;
+	   	}
+    }  
+.pagination	{
+		a{
+			color:$text-color;
+			font-family:LatoFont;
+		}
+		.page-link:hover{
+			background-color:$secondary-color;
+		}
+	}  
+/*----------------third col---------------*/
+form{
+	position:relative;
+		i.fas.fa-search{
+		position:absolute;
+		right:25px;
+		top:10px;
+	}
+}
+
+li.list-group-item{
+	border:none;
+	@extend %paragraphs;
+}
+hr.cardhr{
+	margin: 0;
+   	background-color: $secondary-color;
+    width: 10%;
+}
+hr{
+	background-color: rgba(0,0,0,0.125);
+    width: 100%;
+    margin-bottom:0;
+}
+span{
+	font-family: WorkSans;
+}
+.colorFilter{
+	ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	    li{
+			@extend %paragraphs;
+			font-size:0.7rem; 
+		}
+	}
+	li:before {
+	    content: "•";
+	    padding-right: 8px;
+	    color: $primary-color;
+	}
+}	  
+.previouslyViewed{
+	.image1{
+		background-image:url(../images/shopGrid/widget-img-1.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	.image2{
+		background-image:url(../images/shopGrid/widget-img-2.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	.image3{
+		background-image:url(../images/shopGrid/widget-img-3.jpg);
+		background-size: contain;
+    	background-repeat: no-repeat;
+		height: 50px;
+	}
+	h5.latest{
+		font-family:RalewayFont;
+		font-size:0.8rem;
+		color:$text-color;
+		display:inline-block;
+	}
+	p{
+		font-family:latoFont;
+		font-size:0.8rem;
+		color:$primary-color;
+	}
+
+}

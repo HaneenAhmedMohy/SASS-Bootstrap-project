@@ -1,0 +1,38 @@
+header{
+	background-image:url(../images/HomePage/section-bg-1.jpg);
+	background-size:cover;
+	height:100vh;
+	.title{
+		position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+	}
+	h5{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+	p{
+		@extend %paragraphs;
+		width:63%;
+	}
+	.HeaderBtn{
+		@extend %btn; 
+	}
+}
+.Blog{
+	background-image:url(../images/Blog/section-bg-11.jpg);
+	background-position:right bottom;
+	background-size:cover;
+	height:40vh;
+
+	h5{
+		font-family:KaushanFont;
+	}
+	h1{
+		font-family:RalewayFont;
+		font-size: 4rem;
+	}
+}

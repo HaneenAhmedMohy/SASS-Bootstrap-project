@@ -1,0 +1,77 @@
+.section7{
+	background-image:url(../images/HomePage/section-bg-19.jpg);
+	background-size:cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height:90vh;
+	h6{
+		font-family:KaushanFont;
+		font-size:0.7rem;
+	}
+	h4{
+		font-family:RalewayFont;
+	}
+	hr{
+		width:5%;
+		@extend %hrHome;
+	}
+	p{
+		@extend %paragraphs;
+		width:75%;
+	}
+	.hover{
+		div{
+			display:none;
+		}
+	}
+	button{
+		@extend %btn;
+	}
+	.notdisplayed{
+		opacity:0;
+	}
+	i.fas.fa-mobile-alt{
+		@extend %section7Fontawesome;
+    	width: 30px;
+    	height: 28px;
+    	text-align: center;
+	}
+	i.far.fa-gem{
+		@extend %section7Fontawesome;
+	}
+	i.fas.fa-paint-brush{
+		@extend %section7Fontawesome;
+	}
+
+	.hover:hover{
+		.phover{
+			color:$primary-color;
+		}
+		div{
+			display:inline-block;
+		}
+		i.fas.fa-mobile-alt{
+			@extend %section7Fontawesome;
+	    	width: 30px;
+	    	height: 28px;
+	    	text-align: center;
+	    	color: white;
+	    	background-color:$secondary-color;
+	    	border: 1px solid $secondary-color;
+		}
+		i.far.fa-gem{
+			@extend %section7Fontawesome;
+			background-color:$secondary-color;
+	    	border: 1px solid $secondary-color;
+	    	color: white;
+		}
+		i.fas.fa-paint-brush{
+			@extend %section7Fontawesome;
+			background-color:$secondary-color;
+	    	border: 1px solid $secondary-color;
+	    	color: white;
+		}
+
+	}
+	
+}
